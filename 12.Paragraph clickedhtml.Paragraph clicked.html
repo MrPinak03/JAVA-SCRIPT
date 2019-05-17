@@ -1,0 +1,17 @@
+<p>Click Me</p>
+<style type="text/css">
+	p{
+		background-color: orange;color: white
+	}
+</style>
+<script type="text/javascript">
+	document.getElementsByTagName('p')[0].addEventListener("click",pclick);
+	//dec handler
+	function pclick()
+	{
+		document.getElementsByTagName('p')[0].innerHTML="clicked"
+		document.getElementsByTagName('p')[0].style.backgroundColor="light blue"
+		document.getElementsByTagName('p')[0].style.color="black"
+		document.getElementsByTagName('p')[0].style.textAlign="center"
+	}
+</script>
